@@ -39,6 +39,8 @@ const App = () => {
     initialValues: { image: "", name: "", email: "", number: "", password: "", confirmPassword: "", city: "", gender: "", remember: "" },
     onSubmit,
     validationSchema: ProfileSchema,
+      // validateOnBlur:true
+
     
   })
 
